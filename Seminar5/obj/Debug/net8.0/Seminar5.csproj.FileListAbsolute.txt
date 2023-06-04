@@ -1,0 +1,15 @@
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\bin\Debug\net8.0\Seminar5.exe
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\bin\Debug\net8.0\Seminar5.deps.json
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\bin\Debug\net8.0\Seminar5.runtimeconfig.json
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\bin\Debug\net8.0\Seminar5.dll
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\bin\Debug\net8.0\Seminar5.pdb
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\Seminar5.csproj.AssemblyReference.cache
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\Seminar5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\Seminar5.AssemblyInfoInputs.cache
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\Seminar5.AssemblyInfo.cs
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\Seminar5.csproj.CoreCompileInputs.cache
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\Seminar5.dll
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\refint\Seminar5.dll
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\Seminar5.pdb
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\Seminar5.genruntimeconfig.cache
+C:\Users\Bear2\Рабочий стол\SeminarC#\Homeworks\Seminar5\obj\Debug\net8.0\ref\Seminar5.dll
