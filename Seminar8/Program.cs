@@ -137,21 +137,12 @@
 
 ﻿// Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 
-// Например, заданы 2 массива:
-// 1 4 7 2
-// 5 9 2 3
-// 8 4 2 4
-// 5 2 6 7
-// и
-// 1 5 8 5
-// 4 9 4 2
-// 7 2 2 6
-// 2 3 4 7
-// Их произведение будет равно следующему массиву:
-// 1 20 56 10
-// 20 81 8 6
-// 56 8 4 24
-// 10 6 24 49
+// Например, даны 2 матрицы:
+// 2 4 | 3 4
+// 3 2 | 3 3
+// Результирующая матрица будет:
+// 18 20
+// 15 18
 
 // Console.WriteLine("Введите размеры матриц и диапазон случайных значений:");
 // int m = InputNumbers("Введите число строк 1-й матрицы: ");
@@ -275,44 +266,44 @@
 // 11 16 15 06
 // 10 09 08 07
 
-int n = 4;
-int[,] sqareMatrix = new int[n, n];
+// int n = 4;
+// int[,] sqareMatrix = new int[n, n];
 
-int temp = 1;
-int i = 0;
-int j = 0;
+// int temp = 1;
+// int i = 0;
+// int j = 0;
 
-while (temp <= sqareMatrix.GetLength(0) * sqareMatrix.GetLength(1))
-{
-  sqareMatrix[i, j] = temp;
-  temp++;
-  if (i <= j + 1 && i + j < sqareMatrix.GetLength(1) - 1)
-    j++;
-  else if (i < j && i + j >= sqareMatrix.GetLength(0) - 1)
-    i++;
-  else if (i >= j && i + j > sqareMatrix.GetLength(1) - 1)
-    j--;
-  else
-    i--;
-}
+// while (temp <= sqareMatrix.GetLength(0) * sqareMatrix.GetLength(1))
+// {
+//   sqareMatrix[i, j] = temp;
+//   temp++;
+//   if (i <= j + 1 && i + j < sqareMatrix.GetLength(1) - 1)
+//     j++;
+//   else if (i < j && i + j >= sqareMatrix.GetLength(0) - 1)
+//     i++;
+//   else if (i >= j && i + j > sqareMatrix.GetLength(1) - 1)
+//     j--;
+//   else
+//     i--;
+// }
 
-WriteArray(sqareMatrix);
+// WriteArray(sqareMatrix);
 
-void WriteArray (int[,] array)
-{
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
-    {
-        if (array[i,j] <10 )
-        {
-            Console.Write("0" + array[i, j]);
-            Console.Write(" ");
-        }
-        else Console.Write(array[i, j] + " ");
-    }
-    Console.WriteLine();
-  }
-}
+// void WriteArray (int[,] array)
+// {
+//   for (int i = 0; i < array.GetLength(0); i++)
+//   {
+//     for (int j = 0; j < array.GetLength(1); j++)
+//     {
+//         if (array[i,j] <10 )
+//         {
+//             Console.Write("0" + array[i, j]);
+//             Console.Write(" ");
+//         }
+//         else Console.Write(array[i, j] + " ");
+//     }
+//     Console.WriteLine();
+//   }
+// }
 
 
