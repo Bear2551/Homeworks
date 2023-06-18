@@ -2,6 +2,7 @@
 //  N = 5. -> "5, 4, 3, 2, 1"
 //  N = 8. -> "8, 7, 6, 5, 4, 3, 2, 1"
 
+
 // Console.Write("Введите число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // int count = 1;
@@ -20,6 +21,7 @@
 //         Console.Write(count + " ");
 //     }
 // }
+
 
 
 // Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
@@ -58,7 +60,6 @@
 // m = 2, n = 3 -> A(m,n) = 9
 // m = 3, n = 2 -> A(m,n) = 29
 
-
 Console.Write("Введите число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
 
@@ -66,7 +67,6 @@ Console.Write("Введите число N: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 AkkermanFunction(m,n);
-
 
 // вызов функции Аккермана
 void AkkermanFunction(int m, int n)
